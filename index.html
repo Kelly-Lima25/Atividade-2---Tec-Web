@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="main.css">
+    
+    <title>Novo Sigaa</title>
+    <style>
+              
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100;200;300;400&display=swap');
+
+        header{
+            font-family: 'Noto Serif Georgian', serif;
+            font-weight: 300 ;
+            font-size: 1.5em;
+        }
+        footer{
+            font-family: 'Noto Serif Georgian', serif;
+            font-size: 1em;
+        }
+    </style>
+   
+</head>
+<body>
+    <header style="background-color: #D17E13;" >SIGAA - Sistema Integrado</header>
+    <img src="midia/ufc-logo-universidade-4 (1).png" alt="Logo UFC" id="cLogoUFC">
+    <form action="painel_controle.html" method="">
+        <div class="input-style">
+            <input required type="text" name="" id="cLogin" class="input">
+            <label for="cLogin"><img src="midia/user.png" alt=""> Login</label>
+        </div>
+        <div class="input-style">
+           <input required type="password" name="" id="cSenha" class="input"> 
+            <label for="cSenha"><img src="midia/cadeado.png" alt="" style="margin-right: 5px;">Senha</label> 
+        </div>
+        
+        <p id="cBT"><input type="submit" value="Entrar"  id="cEnter"></p>
+    </form>
+    <footer style="background-color: #D17E13; position: absolute;" >
+        <P>Universidade Federal do Ceará - Campus Sobral</P>
+    </footer>
+</body>
+</html>
